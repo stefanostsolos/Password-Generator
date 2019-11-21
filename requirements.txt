@@ -1,4 +1,3 @@
 passwordmeter
 requests
-os.path
 secrets
