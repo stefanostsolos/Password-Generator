@@ -25,7 +25,7 @@ def create_password(num_words,num_numbers,num_special):
     return pass_str
 
 def main():
-    print("How many words, numbers and special characters you want?")
+    print("How many words, numbers and special characters you want? (e.g 4 8 3)")
     num_words, num_numbers, num_special = map(int, input().split())
     pass_str=create_password(num_words, num_numbers, num_special)
     strength,_=test(pass_str)
